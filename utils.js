@@ -17,4 +17,5 @@ export function renderDragon(dragonData) {
     }
 
     dragonEl.append(nameEl, faceEl, hpEl);
+    return dragonEl;
 }
