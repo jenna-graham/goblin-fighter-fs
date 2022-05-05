@@ -9,7 +9,7 @@ If you work on more than one feature at a time, you are guaranteed to multiply y
 1) **Make a drawing of your app. Simple "wireframes"** 
 ## https://miro.com/app/board/uXjVO3_nm18=/
 1) **Look at the drawing and name the HTML elements you'll need to realize your vision**
-## input and button for adding new dragons, span for traking defeated dragons. span for tracking player hp and div for tracking dragon list.
+## input and button for adding new dragons, span for tracking defeated dragons. span for tracking player hp and div for tracking dragon list.
 1) **Look at the drawing and imagine using the app. What _state_ do you need to track?** 
 ## array of dragons/ name and health points. number of defeated dragons (derived from array of dragons, or just store as a variable), player hp. dragon objects will look like this. {name: 'Professor Goblin', hp:4}
 1) **For each HTML element ask: Why do I need this? (i.e., "we need div to display the results in")** 
