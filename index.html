@@ -13,18 +13,29 @@
 </head>
 
 <body>
-    <header>
-        
-    </header>
     <main>
-        <section class="main-section">
-            <h2>
-               Warrior V. Dragon
-            </h2>
-
-     
-
-        </section>
+        <div class="warrior-stats">
+            <div class="defeated-dragons">
+                <p>You have slayed <span id="defeated-number">0</span>dragons</p>
+                <div class="defeated-list"></div>
+            </div>
+            <div class="warrior">
+                <p>
+                    Your HP:
+                    <span id="warrior-hp">2</span>
+                </p>
+                <img id="warrior-img" src="./assets/AdobeStock_131897606.jpeg" width="300">
+            </div>
+        </div>
+        <div class="dragon-stats">
+            <div>
+                <form>
+                    <input name="dragon-name"/>
+                    <button>Challenge Dragon!</button>
+                </form>
+                <div class="dragons"></div>
+            </div>
+        </div>
     </main>
     <footer>
         <div class="copy gutter-right">&copy; 2022 Alchemy Code Lab</div>

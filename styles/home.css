@@ -1,1 +1,79 @@
 /* add home page styles here */
+.warrior-stats {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.warrior img {
+    width: 200px;
+}
+.warrior {
+    color: black;
+    font-size: 5rem;
+    font-weight: 900;
+    text-align: center;
+    padding: 5px;
+}
+
+.warrior p {
+    background-color: brown;
+    border-radius: 5px;
+    padding: 20px;
+}
+
+.dragon-stats {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.dragon-stats input, .dragon-stats button {
+    height: 100px;
+}
+.dragon-stats button {
+    font-size: 2em;
+}
+.dragon-stats input {
+    font-size: 3rem;
+    width: 80%
+}
+.defeated-dragons { 
+    text-align: center;
+} 
+.defeated-dragons p {
+    font-size: 2rem;
+    color: white;
+    background-color: rgb(80, 118, 108);
+    padding: 20px;
+    border-radius: 15px;
+}
+form {
+    padding: 20px;
+    display: flex;
+}
+.dragon {
+    cursor: pointer;
+    border: solid 3px rgb(80, 118, 108);
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+    background-color: grey;
+    justify-self: flex-end;
+    font-size: 3rem;
+}
+.dead {
+    opacity: .2;
+    cursor: default;
+}
+
+.game-over {
+    transform: rotate(90deg);
+}
