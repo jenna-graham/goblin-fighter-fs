@@ -1,4 +1,4 @@
-export function renderGoblin(dragonData) {
+export function renderDragon(dragonData) {
 
     const dragonEl = document.createElement('div');                     
     const faceEl = document.createElement('p');
