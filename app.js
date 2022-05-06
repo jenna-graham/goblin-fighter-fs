@@ -4,7 +4,7 @@ const defeatedNumber = document.querySelector('#defeated-number');
 const warriorHpEl = document.querySelector('#warrior-hp');
 const form = document.querySelector('form');
 const dragonList = document.querySelector('.dragons');
-// const warriorImg = document.querySelector('#warrior-img');
+const warriorImg = document.querySelector('#warrior-img');
 const ghostDiv = document.getElementById('ghost-words');
 
 // let state
@@ -73,7 +73,7 @@ function dragonClicker(dragon) {
         if (dragon.hp === 0) {
             defeatedDragonCount++;
             defeatedNumber.textContent = defeatedDragonCount;
-            alert (`You are a fine warrior! ${dragon.name} has died, XXX `);
+            // alert (`You are a fine warrior! ${dragon.name} has died, XXX `);
         }
     } else {
         alert('shucks!! you missed, try again!!');
@@ -87,7 +87,7 @@ function dragonClicker(dragon) {
 
         if (warriorHp === 0){
             alert('GAME OVER!');
-            // warriorImg.classList.add('game-over');
+            warriorImg.classList.add('game-over');
             ghostDiv.classList.remove('hidden');
         }
         
