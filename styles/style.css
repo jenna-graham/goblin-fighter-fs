@@ -28,7 +28,10 @@ body {
     --footer-height: 25px;
     
     font-family: 'Titillium Web', sans-serif;
-    background-color: white
+    background-color: white;
+    background-image: url(../assets/AdobeStock_128677698_Preview.jpg);
+    background-size: cover;
+    background-repeat: repeat-y;
 }
 
 main {
@@ -62,6 +65,7 @@ header {
 h2 {
     font-size: 1.8rem;
     font-weight: bold;
+    
 }
 
 .gutter-right {
