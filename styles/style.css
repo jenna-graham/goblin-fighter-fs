@@ -1,4 +1,4 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Aclonica&family=Cinzel+Decorative&family=Cormorant+SC:wght@300&family=Cormorant+Unicase:wght@300&family=Eagle+Lake&family=IM+Fell+Great+Primer+SC&family=Kumar+One&family=Metal+Mania&family=Nosifer&family=Playfair+Display+SC:wght@700&family=Rubik+Wet+Paint&family=ZCOOL+KuaiLe&display=swap');
 body {
     /* feel free to update these css variables for a quick theme */
     
@@ -28,29 +28,37 @@ body {
     --footer-height: 25px;
     
     font-family: 'Titillium Web', sans-serif;
-    background-color: var(--color2);
+    background-color: white;
+    background-image: url(../assets/AdobeStock_41589335.jpeg);
+    min-height: 500px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    
 }
-
 main {
+    height: 100%;
     display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin-bottom: calc(var(--footer-height));
+    
 }
 
 section {
-    background-color: var(--color5);
     max-width: 80%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding-top: var(--gutter);
-    padding-bottom: var(--gutter);
-    margin-top: var(--gutter);
-    margin-bottom: var(--gutter);
-    border: solid 2px var(--color1);
+    /* border: solid 2px black; */
+    border-radius: 30px; 
+    color: black;
+    font-size: 3em;
+    font-family: 'Metal Mania', cursive;
+    /* background-color: dimgrey;
+    opacity: 0.8;   */
+    margin-left: 150px;
+    margin-top: 10px;
+
 }
 
 header {
@@ -65,6 +73,7 @@ header {
 h2 {
     font-size: 1.8rem;
     font-weight: bold;
+    
 }
 
 .gutter-right {
@@ -75,8 +84,22 @@ header img {
     height: var(--header-height);
 }
 
+
 p {
-    margin: var(--gutter);
+    font-family: 'IM Fell Great Primer SC', serif;
+    margin: var(--gutter); 
+     
+     
+}
+section p {
+    font-size: .5em;
+    text-align: center;
+    color: whitesmoke;
+    background-color: dimgray;
+    opacity: 0.9;
+    border: solid 2px black;
+    border-radius: 10px;
+    
 }
   
 footer {
@@ -86,6 +109,12 @@ footer {
     height: var(--footer-height);
     display: flex;
     justify-content: flex-end;
-    background-color: var(--color3);
     box-shadow: var(--shadow);
+}
+h1 {
+    display: flex;
+    align-items: stretch;
+    margin: 0px;
+    color: brown;
+    font-size: 2.5em;
 }

@@ -1,1 +1,109 @@
 /* add home page styles here */
+.warrior-stats {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    font-family: 'IM Fell Great Primer SC', serif;
+}
+
+.warrior img {
+    width: 400px;  
+}
+.warrior {
+    color: black;
+    font-size: 5rem;
+    font-weight: 900;
+    text-align: center;
+    padding: 5px;
+}
+
+.warrior p {
+    background-color: brown;
+    border-radius: 5px;
+    padding: 20px;
+    opacity: 0.9;
+    font-family: 'IM Fell Great Primer SC', serif;
+    border: solid 2px black;
+}
+
+.dragon-stats {
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'IM Fell Great Primer SC', serif;;
+}
+.dragon-stats input, .dragon-stats button {
+    height: 100px;
+}
+.dragon-stats button {
+    font-size: 2em;
+    font-family: 'IM Fell Great Primer SC', serif;
+}
+.dragon-stats input {
+    font-size: 3rem;
+    width: 80%
+}
+.defeated-dragons { 
+    text-align: center;
+} 
+.defeated-dragons p {
+    font-size: 2rem;
+    background-color: rgb(80, 118, 108);
+    padding: 20px;
+    border-radius: 15px;
+    border: solid 2px black;
+    opacity: 0.9;
+}
+form {
+    margin-top: 100px;
+    padding: 20px;
+    display: flex;
+    border-radius: 10px;
+}
+.dragon {
+    cursor: pointer;
+    border: solid 3px rgb(80, 118, 108);
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+    background-color: grey;
+    justify-self: flex-end;
+    font-size: 3rem;
+    opacity: 0.9;
+}
+.dead {
+    opacity: .2;
+    cursor: default;
+}
+
+.game-over {
+    transform: rotate(90deg);
+}
+.hidden {
+    display: none;
+}
+
+#ghost-div p {
+    color: black;
+    background-color: dimgray;
+    opacity: 1;
+    text-align: center;
+    padding: 10px;
+    
+}
+#ghost-div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+
