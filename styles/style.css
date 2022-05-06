@@ -30,10 +30,13 @@ body {
     font-family: 'Titillium Web', sans-serif;
     background-color: white;
     background-image: url(../assets/AdobeStock_41589335.jpeg);
+    min-height: 500px;
     background-size: cover;
-    background-repeat: repeat-y;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    
 }
-
 main {
     height: 100%;
     display: flex;
