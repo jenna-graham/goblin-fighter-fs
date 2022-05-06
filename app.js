@@ -24,13 +24,15 @@ form.addEventListener('submit', (e) => {
     const dragonName = userData.get('dragon-name');
 
     const newDragon = {
-        name: dragonName,
+        name: dragonName || 'scary dragon!',
         hp: Math.ceil(Math.random() * 6),
     };
 
     dragons.push(newDragon);
 
+
     displayDragons();
+    form.reset();
 
 
 }); 
