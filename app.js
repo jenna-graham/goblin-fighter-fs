@@ -63,7 +63,7 @@ function dragonClicker(dragon) {
 
     const warriorHit = Math.random();
 
-    if (warriorHit < 0.5) {
+    if (warriorHit < 0.4) {
         dragon.hp--;
         displayDragons();
         alert(`you did it! you hit ${dragon.name}!`);
