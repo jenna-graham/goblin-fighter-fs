@@ -87,3 +87,23 @@ form {
 .game-over {
     transform: rotate(90deg);
 }
+.hidden {
+    display: none;
+}
+
+#ghost-div p {
+    color: black;
+    background-color: dimgray;
+    opacity: 1;
+    text-align: center;
+    padding: 10px;
+    
+}
+#ghost-div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+
