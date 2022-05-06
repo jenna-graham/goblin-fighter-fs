@@ -13,7 +13,7 @@ let dragons = [
     { name: 'Smaug', hp: 2 },
 ];
 let defeatedDragonCount = 0;
-let warriorHp = 10;
+let warriorHp = 3;
 
 // set event listeners 
 form.addEventListener('submit', (e) => {
@@ -62,7 +62,7 @@ function dragonClicker(dragon) {
 
     const warriorHit = Math.random();
 
-    if (warriorHit < 0.5) {
+    if (warriorHit < 0.6) {
         dragon.hp--;
         displayDragons();
         alert(`you did it! you hit ${dragon.name}!`);
@@ -78,7 +78,7 @@ function dragonClicker(dragon) {
         alert('shucks!! you missed, try again!!');
     }
     const dragonHit = Math.random();
-    if (dragonHit < 0.5) {
+    if (dragonHit < 0.8) {
         warriorHp--;
         warriorHpEl.textContent = warriorHp;
 
